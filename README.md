@@ -1,10 +1,15 @@
 # ZoomSEM: Accelerating Large-scale Electron Microscopy with Real-world Data-driven Super-resolution
 **for Nature Methods review**  
 Jiateng Shou, Zhiwei Xiong*, Ruikang Xu, Zhicheng Wang, Peiyao Shi, Te Shi, Haiqun Jin, Chunying Yin, Jun Guo, Manfred Auer, Ruobing Zhang*, Feng Wu* 
+
 MoE Key Laboratory of Brain-inspired Intelligent Perception and Cognition, University of Science and Technology of China, Hefei, China
+
 Anhui Province Key Laboratory of Biomedical Imaging and Intelligent Processing, Institute of Artificial Intelligence, Hefei Comprehensive National Science Center, Hefei, China
+
 Institute for Brain and Intelligence, Fudan University, Shanghai, China
+
 Department of Biomedical Engineering, School of Biological Sciences and Medical Engineering, Southeast University, Nanjing, China
+
 *Corresponding Author
 
 ![ ](./imgs/overview.png)
