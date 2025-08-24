@@ -15,10 +15,7 @@ Department of Biomedical Engineering, School of Biological Sciences and Medical 
 ![ ](./imgs/overview.png)
 
 ## Code instruction
-We provide code for three datasets separately.
-At the current stage, we provide inference code and part of the test dataset for review.
-Upon acceptance of the paper, we will release all codes and datasets.
-**If the reviewers require additional code, please feel free to open an issue or contact us by email ([shoujt@mail.ustc.edu.cn](mailto:shoujt@mail.ustc.edu.cn)), and we will provide it as soon as possible.**
+We provide implementation code and pre-trained models for reproducing the paper’s main results on all three datasets.
 
 ## Data availability
 We provide part of the test dataset for review.
@@ -63,7 +60,7 @@ python output_ZoomSEM_x8.py # for 8x super-resolution
 ```
 
 ## Contact
-If you have any problem with the released code and dataset, please contact us by email ([shoujt@mail.ustc.edu.cn](mailto:shoujt@mail.ustc.edu.cn)).
+If you have any problem with the released code and datasets, please contact us by email ([shoujt@mail.ustc.edu.cn](mailto:shoujt@mail.ustc.edu.cn)) or open an issue.
 
 ## Acknowledgment
 We acknowledge the following contributors whose code served as the basis for our work:
