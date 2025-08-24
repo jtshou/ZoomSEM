@@ -1,0 +1,63 @@
+#### general settings
+name: ZoomSEM_x8_Real
+scale: 8
+use_tb_logger: true
+use_gpu: true
+dist: true
+save_checkpoint_freq: !!float 5e3
+path:
+  root: ~
+
+#### datasets
+datasets:
+  train:
+    name: RealEMSR_recurrent_MultiSR_Train
+    mode: train
+    GT_dir: ../RealSEM-Pair/4nm/
+    LR_dir: ../RealSEM-Pair/32nm/
+    use_shuffle: true
+    n_workers: 8  # per GPU
+    batch_size: 4
+    GT_size: 512
+    use_flip: true
+    use_rot: true
+    Z_images: 7
+
+  val:
+    name: RealEMSR_recurrent_MultiSR_Val
+    mode: val
+    GT_dir: ../RealSEM-Pair/4nm/
+    LR_dir: ../RealSEM-Pair/32nm/
+    Z_images: 7
+
+#### network structures
+network:
+  scale:
+
+
+#### pretrain
+pretrain:
+  EMSR: ~
+  strict_load: true
+  training_state: ~
+
+#### training settings: learning rate scheme, loss
+train:
+  current_step: 0
+  start_epoch: 0
+  lr_G: !!float 1e-4
+  lr_scheme: CosineAnnealingLR_Restart
+  beta1: 0.9
+  beta2: 0.99
+  niter: 240000
+  T_period: [ 240000, 20000 ]
+  restarts: [ 240000 ]
+  restart_weights: [ 1 ]
+  eta_min: !!float 1e-7
+  val_freq: !!float 5e3
+  manual_seed: 0
+  logger_freq: 100
+
+val:
+  val_freq: !!float 5e3
+  val_path_version: ZoomSEM_x8_Real
