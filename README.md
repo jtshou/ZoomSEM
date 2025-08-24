@@ -45,7 +45,7 @@ python output_ZoomSEM_x8.py # for 8x super-resolution
 python output_ZoomSEM_x16.py # for 16x super-resolution
 ```
 
-#### Acini
+### Acini
 ```sh
 cd ../output_Acini
 python output_ZoomSEM_x4.py # for 4x super-resolution
@@ -53,7 +53,7 @@ python output_ZoomSEM_x8.py # for 8x super-resolution
 python output_ZoomSEM_x16.py # for 16x super-resolution
 ```
 
-#### Mouse striatum 
+### Mouse striatum 
 ```sh
 cd ../output_Mouse_striatum
 python output_ZoomSEM_x8.py # for 8x super-resolution
