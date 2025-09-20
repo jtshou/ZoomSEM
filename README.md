@@ -1,4 +1,4 @@
-# ZoomSEM: Accelerating Large-scale Electron Microscopy with Real-world Data-driven Super-resolution
+# ZoomSEM: Ultrafast Scanning Electron Microscopy via Real-world Super-Resolution
 
 Jiateng Shou, Zhiwei Xiong*, Ruikang Xu, Zhicheng Wang, Peiyao Shi, Te Shi, Haiqun Jin, Chunying Yin, Jun Guo, Manfred Auer, Ruobing Zhang*, Feng Wu* 
 
