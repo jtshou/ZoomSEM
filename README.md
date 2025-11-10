@@ -1,4 +1,4 @@
-# ZoomSEM: Accelerating Large-scale Electron Microscopy with Real-world Data-driven Super-resolution
+# ZoomSEM: accelerating large-scale brain connectomics with intelligent SEM super-resolution
 
 Jiateng Shou, Zhiwei Xiong*, Ruikang Xu, Zhicheng Wang, Peiyao Shi, Te Shi, Haiqun Jin, Chunying Yin, Jun Guo, Manfred Auer, Hanchuan Peng*, Ruobing Zhang*, Feng Wu* 
 
