@@ -1,6 +1,6 @@
 # ZoomSEM: accelerating large-scale brain connectomics with intelligent SEM super-resolution
 
-Jiateng Shou, Zhiwei Xiong*, Ruikang Xu, Zhicheng Wang, Peiyao Shi, Te Shi, Haiqun Jin, Chunying Yin, Jun Guo, Manfred Auer, Hanchuan Peng*, Ruobing Zhang*, Feng Wu* 
+Jiateng Shou, Zhiwei Xiong*, Ruikang Xu, Zhicheng Wang, Peiyao Shi, Te Shi, Haiqun Jin, Chunying Yin, Jun Guo, Manfred Auer, Hanchuan Peng, Ruobing Zhang*, Feng Wu* 
 
 *Corresponding Author
 
